@@ -9,6 +9,7 @@ If you want to adjust the altitude above sea level, modify the value of the ALTI
   * avr-debugger by jdolinay
   * LiquidCrystal_I2C by marcoschwartz
   * Sparkfun BMP180 by sparkfun
+  * Forecaster by gyver
 ## Additional programs
 In folder _programs there are 2 programs.
 ### comreader.exe
