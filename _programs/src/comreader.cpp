@@ -67,8 +67,8 @@ int main(int argc, char const *argv[])
 
     std::ofstream file;
 
-    while (true) {
-        
+    while (true)
+    {
         if (ReadFile(hSerial, readBuffer, sizeof(readBuffer), &bytesRead, NULL))
         {
             if (bytesRead > 0)

@@ -4,9 +4,11 @@ void setup()
 {
 	// Запуск датчиков
   	dht.begin();
-	rtc.begin();
+	//rtc.begin();
+	//rtc.setTime(COMPILE_TIME);
 	lcd.init();
 	barometer.begin();
+	cond.setH(ALTITUDE);
 	Serial.begin(9600);
 
 	// Натройка дисплея
@@ -17,7 +19,7 @@ void setup()
 	lcd.print("kvadrat");
 	delay(2000);
 	lcd.clear();
-//rtc.setTime(COMPILE_TIME);
+
 }
 
 void loop()
