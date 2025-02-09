@@ -10,17 +10,3 @@ If you want to adjust the altitude above sea level, modify the value of the ALTI
   * LiquidCrystal_I2C by marcoschwartz
   * Sparkfun BMP180 by sparkfun
   * Forecaster by gyver
-## Additional programs
-In folder _programs there are 2 programs.
-### comreader.exe
-comreader.exe reads COM port data and writes it to file.  
-Usage:
-```
-> comreader.exe <com_port_name>
-```
-### weatherreader.exe
-weatherreader.exe reads file and writes to medium.txt medium indications.  
-Usage:
-```
-> weatherreader.exe <file_to_read>
-```
