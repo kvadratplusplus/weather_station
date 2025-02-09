@@ -1,0 +1,5 @@
+Medium indications
+Medium temp: 24.3C
+Medium humd: 36%
+Medium pres: 994.36hPa
+Medium pres: 745.789mmHG
